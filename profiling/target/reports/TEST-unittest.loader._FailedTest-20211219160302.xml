@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="unittest.loader._FailedTest-20211219160302" tests="1" file="unittest/loader.py" time="0.004" timestamp="2021-12-19T16:03:04" failures="0" errors="1" skipped="0">
+	<testcase classname="unittest.loader._FailedTest" name="helloworld_tests" time="0.004" timestamp="2021-12-19T16:03:04">
+		<error type="ImportError" message="Failed to import test module: helloworld_tests
+Traceback (most recent call last):
+  File &quot;c:\users\hp\appdata\local\programs\python\python38\lib\unittest\loader.py&quot;, line 154, in loadTestsFromName
+    module = __import__(module_name)
+  File &quot;c:\users\hp\desktop\builder\profiling\src\unittest\python\helloworld_tests.py&quot;, line 4, in &lt;module&gt;
+    from app import register
+ImportError: cannot import name 'register' from 'app' (c:\users\hp\desktop\builder\profiling\src\main\python\app\__init__.py)
+"><![CDATA[Traceback (most recent call last):
+  File "c:\users\hp\appdata\local\programs\python\python38\lib\unittest\case.py", line 60, in testPartExecutor
+    yield
+  File "c:\users\hp\appdata\local\programs\python\python38\lib\unittest\case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "c:\users\hp\appdata\local\programs\python\python38\lib\unittest\case.py", line 633, in _callTestMethod
+    method()
+  File "c:\users\hp\appdata\local\programs\python\python38\lib\unittest\loader.py", line 34, in testFailure
+    raise self._exception
+ImportError: Failed to import test module: helloworld_tests
+Traceback (most recent call last):
+  File "c:\users\hp\appdata\local\programs\python\python38\lib\unittest\loader.py", line 154, in loadTestsFromName
+    module = __import__(module_name)
+  File "c:\users\hp\desktop\builder\profiling\src\unittest\python\helloworld_tests.py", line 4, in <module>
+    from app import register
+ImportError: cannot import name 'register' from 'app' (c:\users\hp\desktop\builder\profiling\src\main\python\app\__init__.py)
+
+]]></error>
+	</testcase>
+</testsuite>

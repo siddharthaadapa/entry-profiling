@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="helloworld_tests.HelloWorldTest-20211219161357" tests="1" file="helloworld_tests.py" time="0.004" timestamp="2021-12-19T16:14:00" failures="0" errors="1" skipped="0">
+	<testcase classname="helloworld_tests.HelloWorldTest" name="test_main_page" time="0.004" timestamp="2021-12-19T16:14:00">
+		<error type="AttributeError" message="'HelloWorldTest' object has no attribute 'app'"><![CDATA[Traceback (most recent call last):
+  File "c:\users\hp\appdata\local\programs\python\python38\lib\unittest\case.py", line 60, in testPartExecutor
+    yield
+  File "c:\users\hp\appdata\local\programs\python\python38\lib\unittest\case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "c:\users\hp\appdata\local\programs\python\python38\lib\unittest\case.py", line 633, in _callTestMethod
+    method()
+  File "c:\users\hp\desktop\builder\profiling\src\unittest\python\helloworld_tests.py", line 8, in test_main_page
+    response = self.app.get('/register', follow_redirects=True)
+AttributeError: 'HelloWorldTest' object has no attribute 'app'
+]]></error>
+	</testcase>
+</testsuite>

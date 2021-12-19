@@ -1,0 +1,28 @@
+
+Running tests...
+----------------------------------------------------------------------
+F
+======================================================================
+FAIL [0.016s]: test_correct_login (helloworld_tests.FlaskTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\users\hp\appdata\local\programs\python\python38\lib\unittest\case.py", line 60, in testPartExecutor
+    yield
+  File "c:\users\hp\appdata\local\programs\python\python38\lib\unittest\case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "c:\users\hp\appdata\local\programs\python\python38\lib\unittest\case.py", line 633, in _callTestMethod
+    method()
+  File "c:\users\hp\desktop\builder\profiling\src\unittest\python\helloworld_tests.py", line 17, in test_correct_login
+    self.assertIn(b'Invalid Email and/or Password', response.data)
+  File "c:\users\hp\appdata\local\programs\python\python38\lib\unittest\case.py", line 1179, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "c:\users\hp\appdata\local\programs\python\python38\lib\unittest\case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: b'Invalid Email and/or Password' not found in b'<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">\n<title>400 Bad Request</title>\n<h1>Bad Request</h1>\n<p>The browser (or proxy) sent a request that this server could not understand.</p>\n'
+
+----------------------------------------------------------------------
+Ran 1 test in 0.031s
+
+FAILED (failures=1)
+
+Generating XML reports...

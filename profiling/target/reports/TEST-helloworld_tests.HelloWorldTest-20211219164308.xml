@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="helloworld_tests.HelloWorldTest-20211219164308" tests="1" file="helloworld_tests.py" time="0.000" timestamp="2021-12-19T16:43:10" failures="0" errors="1" skipped="0">
+	<testcase classname="helloworld_tests.HelloWorldTest" name="test_validate_success_register_form" time="0.000" timestamp="2021-12-19T16:43:10">
+		<error type="TypeError" message="register() got an unexpected keyword argument 'email1'"><![CDATA[Traceback (most recent call last):
+  File "c:\users\hp\appdata\local\programs\python\python38\lib\unittest\case.py", line 60, in testPartExecutor
+    yield
+  File "c:\users\hp\appdata\local\programs\python\python38\lib\unittest\case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "c:\users\hp\appdata\local\programs\python\python38\lib\unittest\case.py", line 633, in _callTestMethod
+    method()
+  File "c:\users\hp\desktop\builder\profiling\src\unittest\python\helloworld_tests.py", line 10, in test_validate_success_register_form
+    form = register(
+TypeError: register() got an unexpected keyword argument 'email1'
+]]></error>
+	</testcase>
+</testsuite>
